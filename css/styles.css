@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  font-family: Sacramento, cursive;
+  margin: 0 auto 0 auto;
+  font-size: 90px;
+  color: #66BFBF;
+  line-height: 2;
+}
+p {
+  font-weight: bold;
+}
+h2 {
+  font-family:Trebuchet MS;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+h3 {
+  font-family:Trebuchet MS;
+  color: #11999E
+}
+h4 {
+  font-size: 40px;
+  font-family:Trebuchet MS;
+  color: #AFDCEC;
+}
+p {
+  line-height: 2;
+  font-family:Trebuchet MS;
+}
+hr {
+  border: dotted #EAF6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a {
+  color: #11999E;
+  font-family:Trebuchet MS;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+ul {
+  font-family: Trebuchet MS;
+  list-style: none;
+}
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #11999E; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+/*              class selectors                        */
+
+.top_container {
+  background-color: #EAF6F6;
+}
+.middle_container {
+  padding: 100px 0;
+}
+.bottom_container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.first_cloud {
+  position: absolute;
+  right: 25%;
+  top: 5%;
+}
+.second_cloud {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+}
+.profile_photo {
+  border-radius: 30px;
+  width: 12%;
+  margin-top: 50px;
+}
+.mountain {
+  margin: -3% auto 0;
+  position: relative;
+  bottom: -4px;
+  width: 60%;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto; /*must have left and rigth auto to recenter div horizontally*/
+  text-align: left;
+  line-height: 2;
+}
+.creds {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.introlog {
+  width: 30%;
+  margin: auto;
+}
+.front-gif {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+.back-gif {
+  width: 25%; /*these mods make the gif's 25% the size of the parent div*/
+  float: left; /*this makes gif float to left of div and text to wrap around it*/
+  margin-left: 30px; /*pushes gifs away from edge of text*/
+}
+.credgif {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 20px;
+}
+.myButton {
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+  margin: 50px auto;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
